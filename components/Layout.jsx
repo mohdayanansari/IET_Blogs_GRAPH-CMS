@@ -1,11 +1,13 @@
 import React from "react";
-import { Header } from "./";
+import { Header, ApplyArticle, Footer } from "./";
 
 const Layout = ({ children }) => {
   return (
     <>
       <Header />
+      <ApplyArticle />
       {children}
+      <Footer />
     </>
   );
 };

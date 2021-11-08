@@ -30,15 +30,19 @@ const Header = () => {
               <span className="flex flex-col items-center gap-1 text-2xl font-bold text-center text-transparent text-white cursor-pointer md:text-3xl md:text-left bg-clip-text bg-gradient-to-br from-red-400 to-yellow-600">
                 Institute of Engineering & Technology, Ayodhya <br />{" "}
                 <span className="text-xl font-medium text-white md:text-2xl">
-                  Blogs/Articles
+                  Blog | Research Paper | Article
                 </span>
               </span>
             </Link>
           </div>
-          <h1 className="font-bold text-blue-500 transition duration-300 transform hover:underline hover:translate-x-3 hover:text-red-500">
-            <Link href="https://forms.gle/1M43Ff2zZ75g9cce6">
-              Apply for Blog/Article ✒️
-            </Link>
+            {/* <h1 className="font-bold text-blue-500 transition duration-300 transform hover:underline hover:translate-x-3 hover:text-red-500">
+              <Link href="https://forms.gle/1M43Ff2zZ75g9cce6">
+                Apply for Blog/Article ✒️
+              </Link>
+            </h1> */}
+          
+          <h1 className="text-white">
+            <Link href="/about">🎓 About Institute</Link>
           </h1>
         </div>
         <div>
